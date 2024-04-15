@@ -1,6 +1,8 @@
 import './App.css'
+import { Button } from './components/Button';
 import { List } from './components/List'
 import { WapperList } from './components/WrapperList'
+
 
 function App() {
  
@@ -9,9 +11,8 @@ function App() {
   return (
     <>
       
-      <WapperList>
-        <List/>
-      </WapperList>
+      <h1>HOLA DESDE VITE</h1>
+      <Button/>
     </>
   )
 }
